@@ -1,0 +1,103 @@
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\ApplicationInsights.config
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\roslyn\csc.exe
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\roslyn\System.Collections.Immutable.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\roslyn\vbc.exe
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\roslyn\VBCSCompiler.exe
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\roslyn\VBCSCompiler.exe.config
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\FrameworkCrud.dll.config
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\FrameworkCrud.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\FrameworkCrud.pdb
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\EntityFramework.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\EntityFramework.SqlServer.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.Web.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.WindowsServer.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Microsoft.ApplicationInsights.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Microsoft.Web.Infrastructure.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\System.Web.Helpers.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\System.Web.Mvc.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\System.Web.Razor.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\System.Web.Webpages.Deployment.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\System.Web.Webpages.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\System.Web.Webpages.Razor.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\EntityFramework.xml
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\EntityFramework.SqlServer.xml
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.Web.xml
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.WindowsServer.xml
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Microsoft.ApplicationInsights.xml
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\System.Web.Razor.xml
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\System.Web.Webpages.xml
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\System.Web.Webpages.Deployment.xml
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\System.Web.Webpages.Razor.xml
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\System.Web.Helpers.xml
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\System.Web.Mvc.xml
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\obj\Debug\FrameworkCrud.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\obj\Debug\FrameworkCrud.pdb
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Newtonsoft.Json.dll
+c:\users\djaramillo\documents\visual studio 2015\Projects\FrameworkCrud\FrameworkCrud\bin\Newtonsoft.Json.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\ApplicationInsights.config
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\roslyn\csc.exe
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\roslyn\vbc.exe
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\roslyn\VBCSCompiler.exe
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\FrameworkCrud.dll.config
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\FrameworkCrud.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\FrameworkCrud.pdb
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\EntityFramework.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\EntityFramework.SqlServer.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.Web.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Microsoft.ApplicationInsights.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Newtonsoft.Json.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System.Web.Helpers.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System.Web.Mvc.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System.Web.Razor.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System.Web.Webpages.Deployment.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System.Web.Webpages.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System.Web.Webpages.Razor.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\EntityFramework.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\EntityFramework.SqlServer.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.Web.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Microsoft.ApplicationInsights.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\Newtonsoft.Json.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System.Web.Razor.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System.Web.Webpages.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System.Web.Webpages.Deployment.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System.Web.Webpages.Razor.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System.Web.Helpers.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System.Web.Mvc.xml
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\obj\Debug\FrameworkCrud.csprojResolveAssemblyReference.cache
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\obj\Debug\FrameworkCrud.dll
+C:\Users\DJARAMILLO\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\obj\Debug\FrameworkCrud.pdb
