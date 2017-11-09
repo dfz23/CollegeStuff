@@ -10,16 +10,22 @@ namespace FrameworkCrud.Controllers
     public class TiendaController : Controller
     {
         // GET: Tienda
-        public ActionResult Index()
-        {
-            ViewBag.Message = "Tienda Diego Jaramillo";
-            var objeto = new ArticuloEntities();
-            //Get the Products entities and add them to the ViewBag.
-            ViewBag.Products = objeto.Articulo.ToList();
-            return View();
+        public ActionResult Index(int? id)
+        {            
+            var objeto = new ArticuloEntities();            
+            
+            return View(objeto.Articulo.ToList());
         }
 
-        
+        [HttpPost]
+        public ActionResult Index()
+        {
+            var objeto = new ArticuloEntities();
+
+            return View(objeto.Articulo.ToList());
+        }
+
+
         public string Get()
         {
             var objeto = new ArticuloEntities();
@@ -29,29 +35,74 @@ namespace FrameworkCrud.Controllers
         }
 
         [HttpPost]
-        public ActionResult Update(Articulo Objetoupdate)
+        public JsonResult Update(Articulo Objetoupdate)
         {
             var objeto = new ArticuloEntities();
-            var A = (from a in objeto.Articulo
-                     where a.ReferenciaArticulo == Objetoupdate.ReferenciaArticulo
-                     select a).FirstOrDefault();
+            var data = System.Web.HttpContext.Current.Request["models"];
+            if (!string.IsNullOrEmpty(data))
+            {
+                var oDataNueva = (new System.Web.Script.Serialization.JavaScriptSerializer()).Deserialize<List<Articulo>>(data);
+                if (oDataNueva != null && oDataNueva.Count > 0)
+                {
 
-            A.NombreArticulo = Objetoupdate.NombreArticulo;
-            A.CantidadArticulo = Objetoupdate.CantidadArticulo;
-            A.ValorArticulo = Objetoupdate.ValorArticulo;
+                    oDataNueva.All(x =>
+                    {
+                        var A = (from a in objeto.Articulo
+                                 where a.ReferenciaArticulo == x.ReferenciaArticulo
+                                 select a).FirstOrDefault();
+                        A.NombreArticulo = x.NombreArticulo;
+                        A.CantidadArticulo = x.CantidadArticulo;
+                        A.ValorArticulo = x.ValorArticulo;
+                        return true;
+                    });
+
+                }
+            }
+            
             objeto.SaveChanges();
-
-            return View("Index");
+            return this.Json(objeto.Articulo);
         }
         [HttpPost]
-        public ActionResult Create(Articulo Objetoupdate)
+        public ActionResult Create()
         {
             var objeto = new ArticuloEntities();
-            objeto.Articulo.Add(Objetoupdate);
-
+            var data = System.Web.HttpContext.Current.Request["models"];
+            if (!string.IsNullOrEmpty(data))
+            {
+                var oDataNueva = (new System.Web.Script.Serialization.JavaScriptSerializer()).Deserialize<List<Articulo>>(data);
+                if (oDataNueva != null && oDataNueva.Count > 0)
+                {
+                    objeto.Articulo.AddRange(oDataNueva);
+                }
+            }
+            
             objeto.SaveChanges();
+            return this.Json(objeto.Articulo);
+        }
+        [HttpPost]
+        public ActionResult Destroy()
+        {
+            var objeto = new ArticuloEntities();
+            var data = System.Web.HttpContext.Current.Request["models"];
+            if (!string.IsNullOrEmpty(data))
+            {
+                var oDataNueva = (new System.Web.Script.Serialization.JavaScriptSerializer()).Deserialize<List<Articulo>>(data);
+                if (oDataNueva != null && oDataNueva.Count > 0)
+                {
 
-            return View("Index");
+                    oDataNueva.All(x =>
+                    {
+                        var A = (from a in objeto.Articulo
+                                 where a.ReferenciaArticulo == x.ReferenciaArticulo
+                                 select a).FirstOrDefault();
+                        objeto.Articulo.Remove(A);
+                        return true;
+                    });
+
+                }
+            }
+            objeto.SaveChanges();
+            return this.Json(objeto.Articulo);
         }
     }
 }

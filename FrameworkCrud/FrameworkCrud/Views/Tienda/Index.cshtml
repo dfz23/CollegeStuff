@@ -1,77 +1,87 @@
-﻿@{
+﻿@model List<FrameworkCrud.Articulo>
+@{
     ViewBag.Title = "Index";
 }
 
 <h2>Tienda</h2>
+<form class="formulario" id="formulario" method="post"></form>
 <div id="grid"></div>
 
 <script type="text/javascript">
-
-    var dataSource = new kendo.data.DataSource({
-        transport: {
-            read: {
-                url: "/Tienda/Get",
-                dataType: "json"
+    $(document).ready(function () {
+        var dataSource = new kendo.data.DataSource({
+            transport: {
+                read: {
+                    url: "/Tienda/Get",
+                    dataType: "json"
+                },
+                update: {
+                    url: "/Tienda/Update",
+                    dataType: "json",
+                    type: "POST",
+                    succes: function (data) {
+                        window.location.replace("/Tienda/Get");
+                    },
+                },
+                destroy: {
+                    url: "/Tienda/Destroy",
+                    dataType: "json",
+                    type: "POST",
+                    succes: "/Tienda/Get",
+                },
+                create: {
+                    url: "/Tienda/Create",
+                    dataType: "json",
+                    type: "POST",
+                    succes: "/Tienda/Get",
+                },
+                parameterMap: function (options, operation) {
+                    if (operation !== "read" && options.models) {
+                        return { models: kendo.stringify(options.models) };
+                    }
+                },
+                requestEnd: onEvent
             },
-            update: {
-                url: "/Tienda/Update",
-                dataType: "json",
-                type: "POST",
-            },
-            destroy: {
-                url: "/Tienda/Destroy",
-                dataType: "json",
-                type: "POST"
-            },
-            create: {
-                url: "/Tienda/Create",
-                dataType: "json",
-                type: "POST"
-            },
-            parameterMap: function (options, operation) {
-                if (operation !== "read" && options.models) {
-                    return { models: kendo.stringify(options.models) };
-                }
-            },
-        },
-        
-        batch: true,
-        pageSize: 20,
-        schema: {
-            model: {
-                id: "ReferenciaArticulo",
-                fields: {
-                    ReferenciaArticulo: { editable: false, type: "number" },
-                    NombreArticulo: { type: "string" },
-                    CantidadArticulo: { type: "number" },
-                    ValorArticulo: { type: "number" },
+            batch: true,
+            pageSize: 20,
+            schema: {
+                model: {
+                    id: "ReferenciaArticulo",
+                    fields: {
+                        ReferenciaArticulo: { editable: false, type: "number" },
+                        NombreArticulo: { type: "string" },
+                        CantidadArticulo: { type: "number" },
+                        ValorArticulo: { type: "number" },
+                    }
                 }
             }
-        }                     
-    });
-    $("#grid").kendoGrid({
-        dataSource: dataSource,
-        toolbar: ["create", "save", "cancel"],
-        columns: [{
-            field: "ReferenciaArticulo",
-            title: "Número de Referencia",
-        }, {
-            field: "NombreArticulo",
-            title: "Nombre del Articulo"
-        }, {
-            field: "CantidadArticulo",
-            title: "Cantidad del Articulo",
+        });
+        $("#grid").kendoGrid({
+            
+            dataSource: dataSource,            
+            toolbar: ["create", "save", "cancel"],
+            columns: [{
+                field: "ReferenciaArticulo",
+                title: "Número de Referencia",
+            }, {
+                field: "NombreArticulo",
+                title: "Nombre del Articulo"
+            }, {
+                field: "CantidadArticulo",
+                title: "Cantidad del Articulo",
 
-        }, {
-            field: "ValorArticulo",
-            title: "Valor del Articulo",
+            }, {
+                field: "ValorArticulo",
+                title: "Valor del Articulo",
 
-        }, {
-            command: "destroy", title: "&nbsp;", width: 150
-        }],
-        editable: true,
-        filterable: true,
-        columnMenu: true,
-        mobile: true
+            }, {
+                command: "destroy", title: "&nbsp;", width: 150
+            }],            
+            editable: true,
+            filterable: true,
+            columnMenu: true,
+            mobile: true
+        });              
     });
+   
 </script>

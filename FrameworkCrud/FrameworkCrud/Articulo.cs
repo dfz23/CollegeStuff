@@ -11,7 +11,7 @@ namespace FrameworkCrud
 {
     using System;
     using System.Collections.Generic;
-    
+    [Serializable]
     public partial class Articulo
     {
         public long ReferenciaArticulo { get; set; }
