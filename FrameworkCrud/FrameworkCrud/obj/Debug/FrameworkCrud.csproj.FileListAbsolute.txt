@@ -150,6 +150,6 @@ C:\Users\DFZ-23\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System
 C:\Users\DFZ-23\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System.Web.Webpages.Razor.xml
 C:\Users\DFZ-23\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System.Web.Helpers.xml
 C:\Users\DFZ-23\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\bin\System.Web.Mvc.xml
-C:\Users\DFZ-23\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\obj\Debug\FrameworkCrud.csprojResolveAssemblyReference.cache
 C:\Users\DFZ-23\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\obj\Debug\FrameworkCrud.dll
 C:\Users\DFZ-23\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\obj\Debug\FrameworkCrud.pdb
+C:\Users\DFZ-23\Source\Repos\CollegeStuff\FrameworkCrud\FrameworkCrud\obj\Debug\FrameworkCrud.csprojResolveAssemblyReference.cache

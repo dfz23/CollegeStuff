@@ -1,9 +1,9 @@
 ﻿@model List<FrameworkCrud.Articulo>
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Articulos";
 }
 
-<h2>Tienda</h2>
+<h2>Articulos</h2>
 <form class="formulario" id="formulario" method="post"></form>
 <div id="grid"></div>
 
@@ -17,30 +17,21 @@
                 },
                 update: {
                     url: "/Tienda/Update",
-                    dataType: "json",
-                    type: "POST",
-                    succes: function (data) {
-                        window.location.replace("/Tienda/Get");
-                    },
+                    dataType: "json",                    
                 },
                 destroy: {
                     url: "/Tienda/Destroy",
-                    dataType: "json",
-                    type: "POST",
-                    succes: "/Tienda/Get",
+                    dataType: "json",                    
                 },
                 create: {
                     url: "/Tienda/Create",
-                    dataType: "json",
-                    type: "POST",
-                    succes: "/Tienda/Get",
+                    dataType: "json",                                        
                 },
                 parameterMap: function (options, operation) {
                     if (operation !== "read" && options.models) {
                         return { models: kendo.stringify(options.models) };
                     }
-                },
-                requestEnd: onEvent
+                },                
             },
             batch: true,
             pageSize: 20,
@@ -73,7 +64,7 @@
             }, {
                 field: "ValorArticulo",
                 title: "Valor del Articulo",
-
+                format: "{0:c}"
             }, {
                 command: "destroy", title: "&nbsp;", width: 150
             }],            

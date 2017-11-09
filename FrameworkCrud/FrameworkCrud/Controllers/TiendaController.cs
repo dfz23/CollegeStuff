@@ -4,44 +4,34 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using Newtonsoft.Json;
+using System.Web.Script.Serialization;
 
 namespace FrameworkCrud.Controllers
 {
     public class TiendaController : Controller
     {
         // GET: Tienda
-        public ActionResult Index(int? id)
-        {            
-            var objeto = new ArticuloEntities();            
-            
-            return View(objeto.Articulo.ToList());
-        }
-
-        [HttpPost]
         public ActionResult Index()
         {
-            var objeto = new ArticuloEntities();
-
-            return View(objeto.Articulo.ToList());
+            return View();
         }
 
 
-        public string Get()
+        public JsonResult Get()
         {
             var objeto = new ArticuloEntities();
-            var articulos = objeto.Articulo.ToList();
-            var json = JsonConvert.SerializeObject(articulos);
-            return json;
+            var articulos = objeto.Articulo.ToList().OrderBy(p => p.ReferenciaArticulo);
+            return Json(articulos, JsonRequestBehavior.AllowGet);
         }
 
-        [HttpPost]
         public JsonResult Update(Articulo Objetoupdate)
         {
+            List<Articulo> oDataNueva = null;
             var objeto = new ArticuloEntities();
             var data = System.Web.HttpContext.Current.Request["models"];
             if (!string.IsNullOrEmpty(data))
             {
-                var oDataNueva = (new System.Web.Script.Serialization.JavaScriptSerializer()).Deserialize<List<Articulo>>(data);
+                oDataNueva = (new System.Web.Script.Serialization.JavaScriptSerializer()).Deserialize<List<Articulo>>(data);
                 if (oDataNueva != null && oDataNueva.Count > 0)
                 {
 
@@ -58,35 +48,35 @@ namespace FrameworkCrud.Controllers
 
                 }
             }
-            
+
             objeto.SaveChanges();
-            return this.Json(objeto.Articulo);
+            return Json(oDataNueva, JsonRequestBehavior.AllowGet);
         }
-        [HttpPost]
         public ActionResult Create()
         {
+            List<Articulo> oDataNueva = null;
             var objeto = new ArticuloEntities();
             var data = System.Web.HttpContext.Current.Request["models"];
             if (!string.IsNullOrEmpty(data))
             {
-                var oDataNueva = (new System.Web.Script.Serialization.JavaScriptSerializer()).Deserialize<List<Articulo>>(data);
+                oDataNueva = (new System.Web.Script.Serialization.JavaScriptSerializer()).Deserialize<List<Articulo>>(data);
                 if (oDataNueva != null && oDataNueva.Count > 0)
                 {
                     objeto.Articulo.AddRange(oDataNueva);
                 }
             }
-            
+
             objeto.SaveChanges();
-            return this.Json(objeto.Articulo);
+            return Json(oDataNueva, JsonRequestBehavior.AllowGet);
         }
-        [HttpPost]
         public ActionResult Destroy()
         {
+            List<Articulo> oDataNueva = null;
             var objeto = new ArticuloEntities();
             var data = System.Web.HttpContext.Current.Request["models"];
             if (!string.IsNullOrEmpty(data))
             {
-                var oDataNueva = (new System.Web.Script.Serialization.JavaScriptSerializer()).Deserialize<List<Articulo>>(data);
+                oDataNueva = (new System.Web.Script.Serialization.JavaScriptSerializer()).Deserialize<List<Articulo>>(data);
                 if (oDataNueva != null && oDataNueva.Count > 0)
                 {
 
@@ -102,7 +92,7 @@ namespace FrameworkCrud.Controllers
                 }
             }
             objeto.SaveChanges();
-            return this.Json(objeto.Articulo);
+            return Json(oDataNueva, JsonRequestBehavior.AllowGet);
         }
     }
 }

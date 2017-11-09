@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ArticuloEntities-Web.config Connection String" description="ArticuloEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Articulo.csdl|res://*/Articulo.ssdl|res://*/Articulo.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=djfdbserver.database.windows.net;initial catalog=Articulo;persist security info=True;user id=dfz23;password=gerEdit!.$;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\DFZ-23\\Source\\Repos\\CollegeStuff\\FrameworkCrud\\FrameworkCrud\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ArticuloEntities']/@connectionString" />
+  </parameter>
+</parameters>

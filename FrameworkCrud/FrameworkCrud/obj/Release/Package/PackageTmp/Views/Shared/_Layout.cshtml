@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Framework</title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />    
+    <script src="~/scripts/modernizr-2.6.2.js"></script>
+    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2017.3.1026/styles/kendo.common.min.css" />
+    <link rel="stylesheet" href="http://kendo.cdn.telerik.com/2017.3.1026/styles/kendo.blueopal.min.css" /> 
+    <script src="~/scripts/jquery-1.10.2.min.js"></script> 
+    <script src="http://kendo.cdn.telerik.com/2017.3.1026/js/kendo.all.min.js"></script>  
+</head>
+<body>    
+    <div class="container body-content">
+        @RenderBody()
+        <hr />
+        <footer>
+            <p>&copy; @DateTime.Now.Year - My ASP.NET Application</p>
+        </footer>
+    </div>
+
+    
+    <script src="~/scripts/bootstrap.min.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="frameworkcrud" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\DFZ-23\\Source\\Repos\\CollegeStuff\\FrameworkCrud\\FrameworkCrud\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\DFZ-23\\Source\\Repos\\CollegeStuff\\FrameworkCrud\\FrameworkCrud\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ArticuloEntities-Web.config Connection String" description="" value="metadata=res://*/Articulo.csdl|res://*/Articulo.ssdl|res://*/Articulo.msl;provider=System.Data.SqlClient;provider connection string=&quot;Data Source=djfdbserver.database.windows.net;Initial Catalog=Articulo;Persist Security Info=True;User ID=dfz23;Password=gerEdit!.$;MultipleActiveResultSets=True;Application Name=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\DFZ-23\\Source\\Repos\\CollegeStuff\\FrameworkCrud\\FrameworkCrud\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ArticuloEntities']/@connectionString" />
+  </parameter>
+</parameters>
